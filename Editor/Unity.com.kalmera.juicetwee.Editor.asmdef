@@ -1,0 +1,18 @@
+{
+    "name": "Unity.com.kalmera.JuiceTwee.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8a002e579db0f134c927e0d562f3ed1f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

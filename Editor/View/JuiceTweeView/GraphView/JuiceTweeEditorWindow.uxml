@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/_Project/Scripts/View/JuiceTweeView/GraphView/JuiceTweeEditorWindow.uss?fileID=7433441132597879392&amp;guid=5e1be7b41d78a0f4e89dfeb9596464a8&amp;type=3#JuiceTweeEditorWindow" />
+    <uie:Toolbar>
+        <uie:ToolbarToggle focusable="false" label="Show Flow" name="flow-toggle" style="width: 86px; -unity-text-align: middle-left;" />
+        <uie:ToolbarToggle focusable="false" label="Show Duration" name="duration-toggle" style="width: 94px; -unity-text-align: middle-left;" />
+    </uie:Toolbar>
+    <JuiceTweeSplitView fixed-pane-initial-dimension="250">
+        <ui:VisualElement name="left-panel" style="flex-grow: 1; width: 250px;">
+            <ui:ScrollView>
+                <ui:Label text="Inspector" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" class="title-label" />
+                <JuiceTweeInspectorView />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 1;">
+            <ui:Label text="Feel Tree Graph" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" class="title-label" />
+            <JuiceTweeGraphView focusable="true" name="JuiceTweeGraphView" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </JuiceTweeSplitView>
+</ui:UXML>

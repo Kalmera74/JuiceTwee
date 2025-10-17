@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/Scripts/View/JuiceTweeView/NodeView/NodeView.uss?fileID=7433441132597879392&amp;guid=1f672a7cef6731d4e944925dc06c5cb4&amp;type=3#NodeView" />
+    <ui:VisualElement name="VisualElement" class="node-base" style="flex-direction: column; background-color: rgba(63, 63, 63, 0.8);">
+        <ui:VisualElement name="in" class="port-container input-port-container" style="height: auto; width: 100%; min-height: auto; background-color: rgb(0, 255, 112);" />
+        <ui:VisualElement name="title-continer" class="title-container" style="background-color: rgba(63, 63, 63, 0.8); height: auto; width: 100%;">
+            <ui:Label text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" class="title-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="out" class="port-container output-port-container" style="flex-grow: 1; flex-direction: column-reverse; justify-content: center; align-items: center; width: 100%; height: auto; min-height: auto; background-color: rgb(241, 81, 99);" />
+    </ui:VisualElement>
+</ui:UXML>

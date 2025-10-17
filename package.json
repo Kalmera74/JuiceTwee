@@ -1,0 +1,28 @@
+{
+  "name": "com.kalmera.juicetwee",
+  "displayName": "JuiceTwee",
+  "version": "1.0.0",
+  "description": "JuiceTwee is a lightweight and easy to use Unity package for adding game feel and tweening to your game objects. It provides a simple and intuitive API for creating smooth and dynamic animations, as well as a variety of built-in effects and transitions.",
+  "keywords": [
+    "unity",
+    "unity3d",
+    "kalmera",
+    "utility"
+  ],
+  "homepage": "https://github.com/Kalmera74/JuiceTwee.git",
+  "bugs": {
+    "url": "https://github.com/Kalmera74/JuiceTwee.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kalmera74/JuiceTwee.git"
+  },
+  "license": "MIT",
+  "author": "Kalmera",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  }
+}

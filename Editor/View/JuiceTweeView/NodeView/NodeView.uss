@@ -1,0 +1,63 @@
+VisualElement {
+}
+
+.node-base {
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: auto;
+    min-width: auto;
+    min-height: auto;
+    background-color: rgba(63, 63, 63, 0.8);
+}
+
+.port-container {
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    min-width: auto;
+    min-height: auto;
+}
+
+.title-container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: rgb(118, 118, 118);
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.title-label {
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+
+
+.input-port-container {
+    background-color: rgb(0, 255, 112);
+}
+
+.input-port-container .input .connectorText{
+    display:none;
+}
+
+.output-port-container {
+    background-color: rgb(241, 81, 99);
+}
+
+.output-port-container .output .connectorText{
+    display:none;
+}
